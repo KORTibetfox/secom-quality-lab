@@ -46,8 +46,7 @@ Leakage-aware semiconductor defect ranking with temporal validation, inspection 
 1. [문제·원인·해결 방법·선택 이유](docs/ENGINEERING_LOG.md)
 2. [운영 매뉴얼과 장애 대응](docs/OPERATIONS.md)
 3. [선행연구와 실제 구현의 구분](docs/RESEARCH_MAP.md)
-4. [면접 설명과 예상 질문](docs/INTERVIEW_GUIDE.md)
-5. [실행 가능한 분석 노트북](notebooks/01_secom_quality.ipynb)
+4. [실행 가능한 분석 노트북](notebooks/01_secom_quality.ipynb)
 
 노트북은 GitHub에서 가볍게 읽을 수 있도록 출력 없이 보관합니다. 관측 결과와 그림은 `results/`에 있으며,
 로컬에서 아래 명령으로 실행된 노트북과 HTML을 재생성할 수 있습니다.
