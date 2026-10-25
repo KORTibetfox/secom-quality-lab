@@ -1,0 +1,19 @@
+{
+  "mode": "shadow_only",
+  "reports": [
+    {
+      "version": "secom-v1-fa19d62b2640",
+      "labeled_units": 20,
+      "retained_units": 620,
+      "label_coverage": 0.03225806451612903,
+      "failures": 1,
+      "shadow_priority_units": 2,
+      "hits": 0,
+      "missed": 1,
+      "recall": 0.0,
+      "precision": 0.0,
+      "average_precision": 0.06666666666666667
+    }
+  ],
+  "caveat": "Metrics cover matched labeled units only. Delayed/missing labels can bias results. Shadow priorities are not actual inspections or yield improvements."
+}

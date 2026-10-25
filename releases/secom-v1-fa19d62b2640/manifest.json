@@ -1,0 +1,26 @@
+{
+  "version": "secom-v1-fa19d62b2640",
+  "created_at": "2026-10-22T14:25:10.083735+00:00",
+  "mode": "shadow_only",
+  "production_approved": false,
+  "model": "lgbm_7",
+  "files": {
+    "holdout_metrics.csv": "f3eb2406a61f677d7f0fa88ea2b2e89678e8add3318e95e0673ab8b13e4a2e6b",
+    "model.joblib": "fa19d62b2640b0e32bc46d02f839461fe9dbb632b4599ea165b4a7230de80137",
+    "model_card.json": "fc7de57cef71aa78d40e66cd480a8c6c97b0ed3ccf6340ca26edda7403289856",
+    "protocol.json": "85e3f56f25a6dba23b1c9d94f6c956b091862adf31db444c1d7a38f6496c02cd",
+    "reference.json": "4e419f9dbcd9f44ea57a6e9fcd870ec7efc5fa52c9e938deffb18fe36e9f0359",
+    "requirements-lock.txt": "5c9f5ad9a66f93eb9fa0431324ff2ddb523b800f544d7b4aef4102ba96d5bc0d",
+    "selection_lock.json": "8ddcd8c7517025875d2306afe2d6fc94dfa6dd431cdded1fb0389f89c447da30"
+  },
+  "schema_version": "secom-590-v1",
+  "python": "3.12",
+  "packages": {
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "lightgbm": "4.7.0",
+    "joblib": "1.6.0"
+  },
+  "gate_reason": "Temporal holdout AP 0.0666; only 2/17 failures at 10% inspection. No fab validation."
+}

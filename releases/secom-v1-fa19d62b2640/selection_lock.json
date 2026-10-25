@@ -1,0 +1,19 @@
+{
+  "champion": "lgbm_7",
+  "selected_by": "development mean_repeat_ap",
+  "locked_at": "2026-10-22T14:08:49.025772+00:00",
+  "thresholds": {
+    "5": {
+      "threshold": 0.11374965964457044,
+      "development_cost": 377.0
+    },
+    "20": {
+      "threshold": 0.03515054441484663,
+      "development_cost": 858.0
+    },
+    "100": {
+      "threshold": 0.014918151651116882,
+      "development_cost": 1066.0
+    }
+  }
+}

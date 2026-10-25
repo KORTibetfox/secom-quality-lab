@@ -1,0 +1,11 @@
+{
+  "requests": 30,
+  "rows_per_request": 20,
+  "latency_scope": "end-to-end localhost HTTP incl validation, inference, SQLite commit; serial load",
+  "cold_first_ms": 62.002899998333305,
+  "warm_p50_ms": 28.216700004122686,
+  "warm_p95_ms": 32.07888000179082,
+  "max_ms": 62.002899998333305,
+  "replays": 0,
+  "caveat": "Single local run, not a production SLA or concurrency capacity test."
+}

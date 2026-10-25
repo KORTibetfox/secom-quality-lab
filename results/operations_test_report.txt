@@ -1,0 +1,21 @@
+test_capacity_rejection (test_operations.OperationsTests.test_capacity_rejection) ... ok
+test_concurrent_retry_exactly_one_result (test_operations.OperationsTests.test_concurrent_retry_exactly_one_result) ... ok
+test_feedback_keys_coverage_and_single_class (test_operations.OperationsTests.test_feedback_keys_coverage_and_single_class) ... ok
+test_healthy_auth_and_shadow_gate (test_operations.OperationsTests.test_healthy_auth_and_shadow_gate) ... ok
+test_model_corruption_rejected_before_load (test_operations.OperationsTests.test_model_corruption_rejected_before_load) ... ok
+test_oversized_body (test_operations.OperationsTests.test_oversized_body) ... ok
+test_rank_order_stable_for_unit_ids (test_operations.OperationsTests.test_rank_order_stable_for_unit_ids) ... ok
+test_replay_and_conflict (test_operations.OperationsTests.test_replay_and_conflict) ... ok
+test_restart_preserves_replay (test_operations.OperationsTests.test_restart_preserves_replay) ... ok
+test_storage_lock_returns_503 (test_operations.OperationsTests.test_storage_lock_returns_503) ... ok
+test_validation_failures (test_operations.OperationsTests.test_validation_failures) ... ok
+test_budget_exact_and_ties (test_quality.QualityTests.test_budget_exact_and_ties) ... ok
+test_cost_and_threshold (test_quality.QualityTests.test_cost_and_threshold) ... ok
+test_original_data_split (test_quality.QualityTests.test_original_data_split) ... ok
+test_time_boundary_ties (test_quality.QualityTests.test_time_boundary_ties) ... ok
+test_train_only_preprocessing (test_quality.QualityTests.test_train_only_preprocessing) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 5.300s
+
+OK

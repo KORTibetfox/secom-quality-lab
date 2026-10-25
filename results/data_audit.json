@@ -1,0 +1,14 @@
+{
+  "rows": 1567,
+  "sensors": 590,
+  "failures": 104,
+  "passes": 1463,
+  "missing_values": 41951,
+  "missing_fraction": 0.04537548808583821,
+  "constant_sensors": 116,
+  "all_missing_sensors": 0,
+  "duplicate_sensor_rows": 0,
+  "duplicate_timestamps": 33,
+  "start": "2008-07-19 11:55:00",
+  "end": "2008-10-17 06:07:00"
+}

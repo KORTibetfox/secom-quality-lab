@@ -1,0 +1,8 @@
+{
+  "purpose": "Post-evaluation descriptive diagnosis only. v1 selection stays locked.",
+  "development_failure_rate": 0.06943335993615324,
+  "holdout_failure_rate": 0.054140127388535034,
+  "sensors_with_ks_ge_02": 171,
+  "sensors_missing_delta_ge_10pp": 56,
+  "causal_limit": "Observed feature distribution changes cannot establish why generalization failed; repeated/lot dependence is unknown."
+}

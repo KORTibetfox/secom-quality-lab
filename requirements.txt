@@ -1,0 +1,15 @@
+numpy
+pandas
+scipy
+scikit-learn
+lightgbm
+matplotlib
+mlflow-skinny
+joblib
+nbformat
+nbclient
+nbconvert
+ipykernel
+fastapi
+uvicorn
+pydantic

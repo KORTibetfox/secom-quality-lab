@@ -1,0 +1,15 @@
+{
+  "scope": "local authenticated shadow operations; not autonomous quality release",
+  "tests": 16,
+  "test_log": "results/operations_test_report.txt",
+  "http_smoke": "results/operations_smoke.json",
+  "model_metrics_reconciled": true,
+  "runtime_state_excluded_from_zip": true,
+  "not_validated": [
+    "real MES integration",
+    "new fab data",
+    "production model validity",
+    "HA or multi-host deployment",
+    "power loss and disk-full recovery"
+  ]
+}

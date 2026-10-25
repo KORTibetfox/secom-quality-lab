@@ -1,0 +1,144 @@
+{
+  "request_id": "demo-v2-001",
+  "version": "secom-v1-fa19d62b2640",
+  "schema_version": "secom-590-v1",
+  "mode": "shadow_only",
+  "production_approved": false,
+  "replayed": false,
+  "created_at": "2026-10-22T14:32:21.990524+00:00",
+  "inspected": 2,
+  "actual_fraction": 0.1,
+  "score_semantics": "uncalibrated_ranking_score",
+  "alerts": [
+    "SMALL_BATCH_MONITORING_UNSTABLE",
+    "MISSINGNESS_SHIFT_REVIEW"
+  ],
+  "monitoring": {
+    "out_of_reference_fraction": 0.017639902676399026,
+    "missing_shift_sensors": 40,
+    "batch_size": 20
+  },
+  "units": [
+    {
+      "unit_id": "demo-0000",
+      "risk_score": 0.052157906046401914,
+      "rank": 6,
+      "shadow_priority": false
+    },
+    {
+      "unit_id": "demo-0001",
+      "risk_score": 0.020159538778013134,
+      "rank": 15,
+      "shadow_priority": false
+    },
+    {
+      "unit_id": "demo-0002",
+      "risk_score": 0.046304155956043355,
+      "rank": 8,
+      "shadow_priority": false
+    },
+    {
+      "unit_id": "demo-0003",
+      "risk_score": 0.029769810831768842,
+      "rank": 11,
+      "shadow_priority": false
+    },
+    {
+      "unit_id": "demo-0004",
+      "risk_score": 0.04769486446973315,
+      "rank": 7,
+      "shadow_priority": false
+    },
+    {
+      "unit_id": "demo-0005",
+      "risk_score": 0.015497022229419751,
+      "rank": 16,
+      "shadow_priority": false
+    },
+    {
+      "unit_id": "demo-0006",
+      "risk_score": 0.028110815614456355,
+      "rank": 13,
+      "shadow_priority": false
+    },
+    {
+      "unit_id": "demo-0007",
+      "risk_score": 0.05449746756328832,
+      "rank": 5,
+      "shadow_priority": false
+    },
+    {
+      "unit_id": "demo-0008",
+      "risk_score": 0.028541740467307324,
+      "rank": 12,
+      "shadow_priority": false
+    },
+    {
+      "unit_id": "demo-0009",
+      "risk_score": 0.08034503571813471,
+      "rank": 2,
+      "shadow_priority": true
+    },
+    {
+      "unit_id": "demo-0010",
+      "risk_score": 0.059635447502792,
+      "rank": 4,
+      "shadow_priority": false
+    },
+    {
+      "unit_id": "demo-0011",
+      "risk_score": 0.011345320765832181,
+      "rank": 19,
+      "shadow_priority": false
+    },
+    {
+      "unit_id": "demo-0012",
+      "risk_score": 0.015257445502418308,
+      "rank": 17,
+      "shadow_priority": false
+    },
+    {
+      "unit_id": "demo-0013",
+      "risk_score": 0.03805626176355815,
+      "rank": 9,
+      "shadow_priority": false
+    },
+    {
+      "unit_id": "demo-0014",
+      "risk_score": 0.10952022579664857,
+      "rank": 1,
+      "shadow_priority": true
+    },
+    {
+      "unit_id": "demo-0015",
+      "risk_score": 0.009543570567541593,
+      "rank": 20,
+      "shadow_priority": false
+    },
+    {
+      "unit_id": "demo-0016",
+      "risk_score": 0.024649485655675273,
+      "rank": 14,
+      "shadow_priority": false
+    },
+    {
+      "unit_id": "demo-0017",
+      "risk_score": 0.01215224994245846,
+      "rank": 18,
+      "shadow_priority": false
+    },
+    {
+      "unit_id": "demo-0018",
+      "risk_score": 0.07039374658625495,
+      "rank": 3,
+      "shadow_priority": false
+    },
+    {
+      "unit_id": "demo-0019",
+      "risk_score": 0.0379451308088999,
+      "rank": 10,
+      "shadow_priority": false
+    }
+  ],
+  "duration_ms": 4.386100001283921
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": [
+    "source hashes",
+    "temporal separation",
+    "original labels",
+    "development-only selection",
+    "all model AP values",
+    "all 48 budget rows",
+    "all cost scenarios",
+    "serialized model predictions",
+    "training-only imputation medians",
+    "walk-forward separation"
+  ],
+  "caveat": "Checks establish arithmetic/protocol consistency, not production validity or causal attribution."
+}

@@ -1,0 +1,13 @@
+{
+  "method": "2000 iid row bootstrap draws, fixed fitted champion; 95% percentile interval",
+  "caveat": "Conditional on fitted model and this short historical window; not training uncertainty or production confidence.",
+  "valid_draws": 2000,
+  "average_precision": [
+    0.03603522234495335,
+    0.1403779033006808
+  ],
+  "recall_at_10": [
+    0.0,
+    0.3
+  ]
+}

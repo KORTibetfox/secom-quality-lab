@@ -1,0 +1,44 @@
+{
+  "version": "v1-fixed-2026-10-22",
+  "primary_selection": "development mean repeated-OOF average precision",
+  "seeds": [
+    17,
+    42,
+    2026
+  ],
+  "folds": 5,
+  "budgets": [
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    1.0
+  ],
+  "fn_costs": [
+    5,
+    20,
+    100
+  ],
+  "temporal_boundary": "2008-10-02 20:54:00",
+  "development_rows": 1253,
+  "development_failures": 87,
+  "holdout_rows": 314,
+  "holdout_failures": 17,
+  "candidates": [
+    "dummy",
+    "logistic_c01",
+    "logistic_c1",
+    "random_forest",
+    "lgbm_7",
+    "lgbm_15",
+    "lgbm_7_balanced"
+  ],
+  "audit_note": "Global audit is descriptive only; selection/imputation fit inside training folds.",
+  "caveat": "Repeated OOF selects candidate; development scores have model-selection optimism. Holdout is final evaluation.",
+  "source_sha256": {
+    "secom.data": "20f0e7ee434f7dcbae0eea9ffff009a2b57f42d6b0dc9a5bd4f00782c0a3374c",
+    "secom.names": "6d91b0b46cdee03064ee3e3112f937c1b3f7fcd9933575794ec07974e6f1ea59",
+    "secom_labels.data": "126884cf453705c9e61a903fe906f0665a3b45ce3639e621edc5c93c89627e03"
+  }
+}

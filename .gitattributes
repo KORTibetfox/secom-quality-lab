@@ -1,0 +1,4 @@
+# Keep release/model bytes unchanged: manifest hashes are byte-sensitive.
+* -text
+*.joblib binary
+*.png binary
